@@ -1,0 +1,423 @@
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.Player{
+  height: 500px;
+  width:500px;
+}
+.techicons{
+  height: 100px !important;
+}
+.icon{
+ display: grid;
+ grid-template-columns: 50px 100px 50px 50px;
+ grid-template-rows: 100px 100px 100px;
+gap:50px;
+position: relative;
+left:400px;
+ height:300px;
+ margin:0px !important;
+
+
+}
+.footer{
+  position: relative;
+  top:300px;
+}
+.Toggle{
+  position: relative;
+  top:-75px;
+  left:1200px;
+   border: none;
+   font-size: 30px;
+     height:50px;
+     width:50px;
+     border-radius: 50%;
+     
+ }
+ .col-lg-7{
+  width:1000px !important;
+  
+  position: relative !important;
+  left:200px !important;
+ }
+
+ .purple{
+  width:600px;
+  font-size: 72px !important;
+  margin-left: 250px;
+  background: -webkit-linear-gradient(rgb(52, 19, 215), rgb(248, 2, 203));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+
+ .col-lg-5{
+  position: relative;
+  left:430px;
+
+ }
+
+.col-lg-7>p {
+  width:950px;
+  font-size: 40px;
+  position: relative;
+  left:100px;
+  line-height: 60px !important;
+}
+ .nav{
+  display: none !important;
+ }
+ #navbar2{
+width:350vw;
+
+ }
+ .navbar{
+  
+  height:100px;
+ }
+.thingsicodewith{
+  position: relative;
+  top:40px;
+  left: -70px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.profilepic{
+  height:150px;
+  width:150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  position: relative;
+  left:600px;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+}
+.connect{
+  position: relative;
+  left:560px;
+  font-size: 30px;
+}
+hr{
+  position: relative;
+  left:200px;
+  width:1000px;
+ 
+}
+.btn
+{
+  position: relative;
+  left:480px;
+    width: 100px;
+    height: 100px;
+   padding-top: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+i.fa
+{
+    font-size: 40px;
+}
+#fb
+{
+    color: #006fff;
+    text-shadow: 0 0 30px #006fff;
+}
+#ig
+{
+    color: #cf3c8a;
+    text-shadow: 0 0 30px #cf3c8a;
+}
+#tw
+{
+    color: #00acff;
+    text-shadow: 0 0 30px #00acff;
+}
+.btn.fb-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
+}
+.btn.fb-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+.btn.ig-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn.ig-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+.btn.tw-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,255,255,0.53);
+}
+.btn.tw-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
+}
+.player2{
+  position: relative !important;
+  left:450px !important;
+  margin-top: 50px!important;
+  margin-bottom:50px!important;
+}
+
+@media(min-width:768px){
+.container-fluid{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+hr{
+  position: relative;
+  left:0px;
+ width: 1200px;
+ 
+}
+.footer{
+  position: relative;
+  top:100px;
+}
+
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+ overflow: hidden;
+height:350px !important;
+position: relative;
+width:500px !important;
+left:-100px;
+margin-top: 20px !important;
+ 
+
+  }
+.player2{
+  position: relative !important;
+  left:0px !important;
+  margin-top: 0px!important;
+  margin-bottom:00px!important;
+}
+.Player{
+  height:400px;
+  width:400px;
+}
+.col-lg-5{
+
+  position: relative;
+  left:0px;
+ 
+ }
+
+ .col-lg-7{
+   width:500px !important;
+  position: relative !important;
+  left:0px !important;
+ }
+ .col-lg-7>p {
+  width:650px;
+  position: relative;
+  left:0px;
+  font-size: 20px;
+  line-height: 30px !important;
+}
+ .col-lg-7>h1{
+  width:500px;
+ }
+#navbar2{
+  display: none;
+}
+.skillsets{
+  position: relative;
+  top:100px;
+  font-weight:600;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.position-relative{
+  background-color: aliceblue !important ;
+}
+.nav{
+display:flex !important;
+  width:100vw !important;
+}
+.nav-link{
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: 500;   
+}
+
+.anime{
+  display: flex;
+  width:1000px;
+  margin-top: 50px;
+  margin-left:100px;
+ 
+ 
+ 
+}
+.purple{
+  margin-left: 0px;
+  font-size: 72px !important;
+  margin-right: 100px !important;
+  background: -webkit-linear-gradient(rgb(52, 19, 215), rgb(248, 2, 203));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue{
+  font-size: 72px !important;
+  margin-right: 100px !important;
+  background: -webkit-linear-gradient(skyblue, rgb(184, 184, 242));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.col-lg-9{
+  
+  background-color: #f5f6f8;
+}
+
+.techicons{
+  height:50px !important;
+  
+}
+
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+ position: relative;
+ top:30px;
+ right: 150px;
+  padding: 80px;
+height:300px;
+justify-content: center;
+
+  border-radius: 20px;
+}
+.container
+{   
+   position:relative;
+   top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 150px;
+   
+}
+
+.profilepic{
+  height:150px;
+  width:150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  position: relative;
+  left:540px;
+  margin-bottom: 20px;
+}
+.connect{
+  position: relative;
+  left:530px;
+  font-size: 20px;
+}
+.btn
+{
+position: relative;
+left:0px;
+    width: 100px;
+    height: 100px;
+   padding-top: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+i.fa
+{
+    font-size: 40px;
+}
+#fb
+{
+    color: #006fff;
+    text-shadow: 0 0 30px #006fff;
+}
+#ig
+{
+    color: #cf3c8a;
+    text-shadow: 0 0 30px #cf3c8a;
+}
+#tw
+{
+    color: #00acff;
+    text-shadow: 0 0 30px #00acff;
+}
+.btn.fb-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
+}
+.btn.fb-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+.btn.ig-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn.ig-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+.btn.tw-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,255,255,0.53);
+}
+.btn.tw-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
+}
+
+.footer{
+  padding: 30px;
+}
+
+
+.Toggle{
+ position: relative;
+ top:-50px;
+ left:1200px;
+ font-size: 20px;
+  border: none;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    
+}
+}
+
+
+
+
+
