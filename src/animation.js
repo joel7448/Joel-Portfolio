@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react"
 import Techicons from "./techicons";
 import Togglebutton from "./togglebutton";
 import Typewriter from 'typewriter-effect';
-
+import Footer from "./footer";
+import Navbar from "./navbar";
 function Animation(props) {
     
 
@@ -14,7 +15,7 @@ function Animation(props) {
    
   return (
     <>
-  
+  <Navbar></Navbar> 
     <div className="anime ">
       <div className="row">
         <div className="col-lg-5">
@@ -51,7 +52,7 @@ function Animation(props) {
   
     <Techicons></Techicons>
 
-
+    <Footer></Footer>
        </>
   );
 }
