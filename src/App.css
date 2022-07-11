@@ -141,8 +141,8 @@ body {
 }
 .button-box{
   position: relative;
-  left:320px;
- bottom: 1260px;
+  left:290px;
+ bottom: 900px;
 
 }
 * {
@@ -154,9 +154,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  text-transform: uppercase;
-}
+
 
 .twenty-one {
   width: 200px;
@@ -253,11 +251,11 @@ button:focus {
 }
 .icon {
   display: grid;
-  grid-template-columns: 50px 100px 50px 50px;
+  grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
   gap: 60px ;
   position: relative;
-  left: 440px;
+  left: 360px;
   height: 300px;
   margin: 0px !important;
 }
@@ -315,8 +313,8 @@ button:focus {
 .thingsicodewith {
   position: relative;
   top: 40px;
-  left: -70px;
-  font-size: 40px;
+  left: -50px;
+  font-size: 35px;
   font-weight: 700;
 }
 .profilepic {
@@ -400,10 +398,38 @@ i.fa {
   margin-top: 50px !important;
   margin-bottom: 50px !important;
 }
+@media (min-width:481px){
+ 
+.col-lg-7>h1{
+  position: relative;
+  font-size: 80px !important;
+  
+  left:600px ;
+}
+.col-lg-7>p{
+  position: relative;
+  left:750px ;
+  width:500px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 80px !important;
+  
+}
+.col-lg-5{
+  position: relative;
+  left:880px;
+  
+}
+.Player{
+  height: 900px;
+  width:900px;
+}
+}
+  
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
   .container-fluid {
     font-size: 20px;
     font-weight: 600;
@@ -467,7 +493,9 @@ i.fa {
     line-height: 30px !important;
   }
   .col-lg-7 > h1 {
-    width: 500px;
+    position: relative;
+    left:0px !important;
+    width: 900px;
   }
   #navbar2 {
     display: none;
@@ -487,12 +515,13 @@ i.fa {
     display: flex !important;
     width: 100vw !important;
   }
+
   .nav-link {
     transition: 0.3s;
     font-size: 20px;
     font-weight: 500;
   }
-
+        
   .anime {
     display: flex;
     width: 1000px;
@@ -520,7 +549,7 @@ i.fa {
   }
 
   .techicons {
-    height: 50px !important;
+    height: 45px !important;
   }
 
   .icon {
@@ -532,12 +561,12 @@ i.fa {
     padding: 80px;
     height: 300px;
     justify-content: center;
-
     border-radius: 20px;
   }
   .container {
     position: relative;
     top: 100px;
+    right:40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -625,5 +654,12 @@ i.fa {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+  }
+  .thingsicodewith {
+    position: relative;
+    top: 60px;
+    left: -70px;
+    font-size: 40px;
+    font-weight: 700;
   }
 }

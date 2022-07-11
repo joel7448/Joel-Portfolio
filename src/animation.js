@@ -5,8 +5,12 @@ import Togglebutton from "./togglebutton";
 import Typewriter from 'typewriter-effect';
 import Footer from "./footer";
 import Navbar from "./navbar";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 function Animation(props) {
-    
+    useEffect(()=>{
+      Aos.init({duration:2000})
+    },[])
 
   
  
@@ -16,7 +20,9 @@ function Animation(props) {
   return (
     <>
   <Navbar></Navbar> 
-    <div className="anime ">
+
+
+    <div className="anime " data-Aos="fade-up">
       <div className="row">
         <div className="col-lg-5">
           <Player
@@ -50,9 +56,9 @@ function Animation(props) {
       </div>
     </div>
   
-    <Techicons></Techicons>
+    <div data-Aos="fade-left"><Techicons ></Techicons></div>
 
-    <Footer></Footer>
+    <div data-Aos="flip-left"><Footer></Footer></div>
        </>
   );
 }
