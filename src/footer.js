@@ -22,6 +22,9 @@ function Footer (){
         <div class="btn tw-btn">
         <a href="https://twitter.com/JoelJerene"> <i class="fa fa-twitter" aria-hidden="true" id="tw"></i></a>
         </div>
+        <div class="btn tw-btn">
+        <a href="https://github.com/joel7448"> <i class="fa fa-github" aria-hidden="true" id="fb"></i></a>
+        </div>
     </div>
 
     </div>

@@ -7,7 +7,19 @@ body {
 .intro a {
   color: #fff;
 }
-/* customizable snowflake styling */
+
+/* backgroundColor:"rgb(0, 0, 0, 0.3)", border:"3px solid white" */
+
+.true{
+ 
+  border:3px solid rgb(11, 8, 8) !important;
+}
+
+.false{
+
+ background-color: #000 !important;
+  border:3px solid rgb(242, 242, 246) !important; 
+}
 .snowflake {
   color: #fff;
   font-size: 1em;
@@ -245,17 +257,16 @@ button:focus {
   width: 190vw;
 }
 
-.techicons {
-  height: 100px !important;
- 
-}
+
 .icon {
+
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
-  gap: 60px ;
+  gap: 40px ;
   position: relative;
   left: 360px;
+ 
   height: 300px;
   margin: 0px !important;
 }
@@ -343,7 +354,7 @@ hr {
 }
 .btn {
   position: relative;
-  left: 480px;
+  left: 400px;
   width: 100px;
   height: 100px;
   padding-top: 30px !important;
@@ -355,6 +366,7 @@ hr {
   cursor: pointer;
   transition: all 0.3s;
   border-radius: 10px;
+  
 }
 i.fa {
   font-size: 40px;
@@ -398,6 +410,34 @@ i.fa {
   margin-top: 50px !important;
   margin-bottom: 50px !important;
 }
+.blog{
+  position: relative;
+  top:350px;
+  left:260px;
+  width:700px;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+.card-text{
+  font-size: 36px;
+}
+.card-title{
+  font-size: 50px;
+}
+.blog>h1{
+  font-size: 50px;
+}
+.col-md-4{
+  position: relative;
+  left:0px;
+  top:10px;
+  
+}
+.techicons{
+  height:90px !important;
+}
+
+
 @media (min-width:481px){
  
 .col-lg-7>h1{
@@ -434,6 +474,39 @@ i.fa {
     font-size: 20px;
     font-weight: 600;
   }
+
+  .techicons {
+    height: 100px !important;
+    position: relative;
+   bottom: 50px;
+   
+  }
+  .blog{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:1100px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .card-text{
+    font-size: 20px;
+  }
+  .card-title{
+    font-size: 30px;
+  }
+  .blog>h1{
+    font-size: 20px;
+  }
+  .col-md-4{
+    position: relative;
+    left:-5px;
+    top:5px;
+    
+  }
+ 
+
+
   .button-box{
     position: relative;
     left:570px;
@@ -539,7 +612,7 @@ i.fa {
   .blue {
     font-size: 72px !important;
     margin-right: 100px !important;
-    background: -webkit-linear-gradient(skyblue, rgb(184, 184, 242));
+    background: -webkit-linear-gradient(rgb(250, 4, 164), rgb(137, 185, 244));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -549,18 +622,19 @@ i.fa {
   }
 
   .techicons {
-    height: 45px !important;
+    height: 40px !important;
   }
 
   .icon {
     display: flex;
     flex-wrap: wrap;
+  
     position: relative;
     top: 30px;
     right: 150px;
     padding: 80px;
     height: 300px;
-    justify-content: center;
+    
     border-radius: 20px;
   }
   .container {
@@ -591,7 +665,7 @@ i.fa {
   }
   .btn {
     position: relative;
-    left: 0px;
+    left: 50px;
     width: 100px;
     height: 100px;
     padding-top: 30px !important;
@@ -661,5 +735,16 @@ i.fa {
     left: -70px;
     font-size: 40px;
     font-weight: 700;
+  }
+  .blog{
+    position: relative;
+    top:0px;
+    left:0px;
+  }
+  .myblogs{
+    position: relative;
+    bottom: 10px;
+    left:390px;
+    font-size: 30px !important;
   }
 }

@@ -1,11 +1,16 @@
 import { useState } from "react";
 
+
+
+
+import userContext from "./usercontext";
+import { useContext } from "react";
 function Togglebutton(){
 
 const [light,dark]=useState(true)
 var togglecolor="white";
-
-
+let data = useContext(userContext); 
+data.setteachers(light);
 
 let darkmode = ()=>{
    if(light==true){
@@ -13,8 +18,8 @@ let darkmode = ()=>{
     
     dark(false); 
      document.body.style="background-color:black ; color:white"
-     
-      
+     data.setteachers(light)
+   
     
 
    }
@@ -23,8 +28,7 @@ let darkmode = ()=>{
     
     dark(true);
       document.body.style="background-color:white ; color:black"
-      
-     
+      data.setteachers(light)
     
    }
 

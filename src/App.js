@@ -14,6 +14,7 @@ function App() {
   return (
     <div >
       <BrowserRouter>
+      
       <Routes>
 
 <Route path='/' element={<Frontpage></Frontpage>}/>
@@ -21,6 +22,7 @@ function App() {
 <Route  path='/Joel-portfolio' element={<Animation ></Animation>}/>
 
 </Routes>
+
 </BrowserRouter>
     </div>
   );
