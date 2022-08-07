@@ -153,6 +153,9 @@ a { color: inherit !important;}
     top:15px;
     margin-bottom: 30px;
 }
+.col-lg-2{
+    margin-left: 20px !important;
+   }
 
  @media(min-width:700px){
     .nav-item{
@@ -162,6 +165,9 @@ a { color: inherit !important;}
         letter-spacing: 3px;
        
     }
+    .col-lg-2{
+        margin-left: 0px !important;
+       }
     .fa-aws{
         position: relative;
         top:10px;
@@ -179,9 +185,9 @@ a { color: inherit !important;}
     }
     .skill{
         margin-top: 160px !important;
-    
+        
     }
-    
+  
     .m{
         padding-bottom: 110px;
     }
