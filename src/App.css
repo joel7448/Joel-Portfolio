@@ -119,6 +119,40 @@ padding-left: 60px !important;
     margin-bottom: 10px;
 }
 a { color: inherit !important;}
+.youtube{
+    height: 150px !important;
+    width:150px !important;
+}
+.ecommerce{
+    position: relative;
+    right:20px;
+    height: 200px !important;
+    width:200px !important;
+}
+.insta{
+    height:200px !important;
+    width:200px !important;
+}
+.dashboard{
+    height: 200px !important;
+    width:200px !important;
+}
+.fa-aws:hover{
+     transform: scale(1);   
+}
+.fa-bootstrap:hover{
+    transform: scale(1);
+}
+.projects{
+    color: #fefeff!important;
+    letter-spacing: 3px;
+}
+.skills{
+    color: #080134 !important;
+    position: relative;
+    top:15px;
+    margin-bottom: 30px;
+}
 
  @media(min-width:700px){
     .nav-item{
@@ -127,6 +161,16 @@ a { color: inherit !important;}
         text-transform: uppercase;
         letter-spacing: 3px;
        
+    }
+    .fa-aws{
+        position: relative;
+        top:10px;
+    }
+    .skills{
+      
+        position: relative;
+        top:80px;
+        margin-bottom: 0px;
     }
     .svg{
         position:relative;
@@ -137,9 +181,12 @@ a { color: inherit !important;}
         margin-top: 160px !important;
     
     }
+    
     .m{
         padding-bottom: 110px;
     }
+
+
 
     .col-lg-4{
         margin-bottom: 0px !important;
@@ -158,6 +205,7 @@ a { color: inherit !important;}
     grid-template-rows:100px 100px 100px  !important;
 
    }
+   
 h1{
     
     letter-spacing: 3px;
