@@ -154,7 +154,23 @@ a { color: inherit !important;}
     margin-bottom: 30px;
 }
 .col-lg-2{
+   
+    background-color: white;
+    height:80px;
+    width:80px !important;
     margin-left: 20px !important;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ 
+   }
+   
+   .x{
+    margin-left: 30px;
+    display: grid !important;
+       grid-template-columns: 100px 100px 100px  !important;
+    grid-template-rows:100px 100px 100px 100px 100px  !important;
+    padding-bottom: 15px;
+
    }
 
  @media(min-width:700px){
@@ -168,10 +184,7 @@ a { color: inherit !important;}
     .col-lg-2{
         margin-left: 0px !important;
        }
-    .fa-aws{
-        position: relative;
-        top:10px;
-    }
+   
     .skills{
       
         position: relative;
@@ -185,6 +198,7 @@ a { color: inherit !important;}
     }
     .skill{
         margin-top: 160px !important;
+     
         
     }
   
@@ -207,6 +221,7 @@ a { color: inherit !important;}
    .x{
     margin-left: 0px;
     display: grid !important;
+   
     grid-template-columns: 150px 150px 150px 150px !important;
     grid-template-rows:100px 100px 100px  !important;
 

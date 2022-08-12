@@ -4,7 +4,7 @@ function Projects(){
     
     <>
     <div className="row ps-2 pe-2">
-    <h3 className="text-center mt-5 projects">My Notable Projects</h3>
+    <h3 className="text-center mt-5 projects">My Noteworthy Projects</h3>
         <div className="col-lg-6 pt-5">
             <div className="container text-center p-4"  data-aos-once="true" data-aos="fade-right">
                 <div className="row">
@@ -13,7 +13,7 @@ function Projects(){
           className="player1 youtube"
           autoplay
           loop
-          src="https://assets4.lottiefiles.com/private_files/lf30_cwyafad8.json"
+          src="https://assets5.lottiefiles.com/private_files/lf30_F6EtR7.json"
           style={{ height: "60px", width: "60px" }}
         >
           <Controls
@@ -23,7 +23,7 @@ function Projects(){
         </Player>
             </div>
             <div className="col-lg-6 pt-5  ">
-                <h3 className="mt-lg-5 ">YouTube Clone</h3>
+                <h3 className="mt-lg-5 ">Netflix Clone</h3>
 
                 <h5>Reactjs / Nodejs / MongoDB / Redux / JWT / Cookies </h5>
                 </div>
@@ -71,7 +71,7 @@ function Projects(){
           className="player1 insta"
           autoplay
           loop
-          src="https://assets9.lottiefiles.com/packages/lf20_miwpcyh5.json"
+          src="https://assets8.lottiefiles.com/private_files/lf30_cwyafad8.json"
           style={{ height: "100px", width: "100px" }}
         >
           <Controls
@@ -81,7 +81,7 @@ function Projects(){
         </Player>
             </div>
             <div className="col-lg-6 pt-5">
-                <h3 className="mt-lg-5">Instagram Clone</h3>
+                <h3 className="mt-lg-5">Youtube Clone</h3>
 
                 <h5>Reactjs / Nodejs / MongoDB / Redux / JWT / Cookies </h5>
                 </div>
