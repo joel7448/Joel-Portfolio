@@ -153,6 +153,38 @@ a { color: inherit !important;}
     top:15px;
     margin-bottom: 30px;
 }
+.ui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 5px !important;
+    border-radius: 50%;
+}
+.links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.GITHUB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 5px !important;
+    border-radius: 50%;
+}
+
+.ui:hover,.GITHUB:hover{
+background-color: #faf6f6;
+color: #080134 !important;
+
+
+}
 .col-lg-2{
    
     background-color: white;

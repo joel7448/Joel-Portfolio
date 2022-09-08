@@ -66,7 +66,7 @@ const scrolltoSection = (elementref)=>{
             <a class="nav-link " href="#" onClick={()=>scrolltoSection(Skills)}>Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Resume</a>
+            <a class="nav-link " target="_blank" href="https://drive.google.com/file/d/1ZoPQueB26LwEcweYQzrvBWi2QsFbxOIq/view">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="#" onClick={()=>scrolltoSection(contacts)} >Contact</a>
