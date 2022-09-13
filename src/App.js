@@ -56,9 +56,7 @@ const scrolltoSection = (elementref)=>{
       </button>
       <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
         <ul class="navbar-nav   mb-lg-0 ">
-          <li class="nav-item ">
-            <a class="nav-link active  " aria-current="page" href="#">Home</a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link " href="#" onClick={()=>scrolltoSection(Project)}>Projects</a>
           </li>
