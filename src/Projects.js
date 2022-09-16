@@ -67,6 +67,35 @@ function Projects(){
             
            
         </div>
+        <div className="col-lg-6 pt-5 ps-2">
+            <div className="container text-center p-4"  data-aos-once="true" data-aos="fade-left">
+                <div className="row">
+                <div className="col-lg-6 ">
+                <Player
+          className="player1 ecommerce"
+          autoplay
+          loop
+          src="https://assets1.lottiefiles.com/packages/lf20_o6hQ8m.json"
+          style={{ height: "100px", width: "100px" }}
+        >
+          <Controls
+            visible={false}
+            buttons={["play", "repeat", "frame", "debug"]}
+          />
+        </Player>
+            </div>
+            <div className="col-lg-6 mt-5  ">
+                <h3 className="mt-lg-5">Online Nursery platform</h3>
+
+                <h5>Reactjs / Nodejs / MongoDB / JWT / Cookies /Redux</h5>
+               <div className="links"> <a target="_blank" href="https://github.com/joel7448/ecommerce-frontend" className="GITHUB"><GitHub/></a>
+                <a target="_blank" href="https://ecommerce-frontend-tawny.vercel.app/" className="ui"><Widgets/></a></div>
+                </div>
+                </div>
+            </div>
+            
+           
+        </div>
  </div>
  
    
