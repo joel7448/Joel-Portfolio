@@ -8,7 +8,7 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { useRef } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import Navbar from './navbar';
+
 import About from './about';
 import Skillsets from './skillsets';
 import Projects from './Projects';
@@ -19,7 +19,7 @@ function App() {
   useEffect(()=>{
     setTimeout(()=>{
       setLoading(false);
-    },3000)
+    },1000)
   },[])
 
   useEffect(()=>{
@@ -64,7 +64,7 @@ const scrolltoSection = (elementref)=>{
             <a class="nav-link " href="#" onClick={()=>scrolltoSection(Skills)}>Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " target="_blank" href="https://drive.google.com/file/d/1ZoPQueB26LwEcweYQzrvBWi2QsFbxOIq/view">Resume</a>
+            <a class="nav-link " target="_blank" href="https://drive.google.com/file/d/1qVHY7zEP_63arYNILnVASVWrj15PCdhS/view">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="#" onClick={()=>scrolltoSection(contacts)} >Contact</a>

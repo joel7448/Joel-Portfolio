@@ -27,7 +27,7 @@ function Projects(){
             <div className="col-lg-6  mt-5 ">
                 <h3 className="mt-lg-5">Interactive Dashboard</h3>
 
-                <h5>Reactjs / Nodejs / MongoDB / JWT / Cookies </h5>
+                <h5>Reactjs / Nodejs / MongoDB / JWT / Localstorage </h5>
                  <div className="links"> <a target="_blank" href="https://github.com/joel7448/Foodtokengenerator-frontend" className="GITHUB"><GitHub/></a>
                 <a href="https://foodtokengenerator-frontend.vercel.app/admin/login" target="_blank" className="ui"><Widgets/></a></div>
                 
@@ -58,7 +58,7 @@ function Projects(){
             <div className="col-lg-6 mt-5  ">
                 <h3 className="mt-lg-5">Food Token Generator</h3>
 
-                <h5>Reactjs / Nodejs / MongoDB / JWT / Cookies </h5>
+                <h5>Reactjs / Nodejs / MongoDB / JWT / Localstorage </h5>
                <div className="links"> <a target="_blank" href="https://github.com/joel7448/Foodtokengenerator-frontend" className="GITHUB"><GitHub/></a>
                 <a target="_blank" href="https://foodtokengenerator-frontend.vercel.app/" className="ui"><Widgets/></a></div>
                 </div>
@@ -87,7 +87,7 @@ function Projects(){
             <div className="col-lg-6 mt-5  ">
                 <h3 className="mt-lg-5">Online Nursery platform</h3>
 
-                <h5>Reactjs / Nodejs / MongoDB / JWT / Cookies /Redux</h5>
+                <h5>Reactjs / Nodejs / MongoDB / JWT / Localstorage /Redux</h5>
                <div className="links"> <a target="_blank" href="https://github.com/joel7448/ecommerce-frontend" className="GITHUB"><GitHub/></a>
                 <a target="_blank" href="https://ecommerce-frontend-tawny.vercel.app/" className="ui"><Widgets/></a></div>
                 </div>
