@@ -13,6 +13,7 @@ import About from './about';
 import Skillsets from './skillsets';
 import Projects from './Projects';
 import Contact from './contact';
+import Timeline from './timeline';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,7 @@ function App() {
   const Skills = useRef(null);
  const Project = useRef(null);
 const contacts = useRef(null);
+const workexperience = useRef(null);
 const scrolltoSection = (elementref)=>{
   window.scrollTo({
     top:elementref.current.offsetTop,
@@ -69,6 +71,9 @@ const scrolltoSection = (elementref)=>{
           <li class="nav-item">
             <a class="nav-link " href="#" onClick={()=>scrolltoSection(contacts)} >Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" onClick={()=>scrolltoSection(workexperience)} >Work experience</a>
+          </li>
         
         </ul>
        
@@ -77,6 +82,7 @@ const scrolltoSection = (elementref)=>{
   </nav></div>
    <div> <About></About></div>
    <div ref={Skills} > <Skillsets  ></Skillsets></div>
+   <div ref={workexperience} > <Timeline/></div>
    <div ref={Project}> <Projects></Projects></div>
    <div ref={contacts}><Contact></Contact></div>
     </>

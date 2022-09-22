@@ -12,7 +12,7 @@ function About() {
           autoplay
           loop
           src="https://assets10.lottiefiles.com/packages/lf20_akpzixkb.json"
-          style={{ height: "220px", width: "220px" }}
+          style={{ height: "250px", width: "250px" }}
         >
           <Controls
             visible={false}

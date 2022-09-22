@@ -11,7 +11,7 @@ function Skillsets(){
 
 
 
-    return (  <div className="row mt-5  m " style={{backgroundColor:"white"}}>
+    return (  <div className="row mt-5   m " style={{backgroundColor:"white"}}>
 <h1 className="text-center skills">My Skills</h1>
     <div className="col-lg-6  skill" data-aos-once="true" data-aos="fade-right">
    
